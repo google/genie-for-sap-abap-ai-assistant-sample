@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_GENIE_ENHANCEMENT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface: Code Genie Enhancement</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_GENIE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Menu Painter: Function or menu text (4.0)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Program/Transaction in SQL Trace Evaluation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUI status</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ENHANCE_RIGHT_CLICK</CMPNAME>
+     <SCONAME>RO_MENU_SUB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Context Menu</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGZCAM_GENIE_PRMPT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00024</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGZCAM_GENIE_PRMPT</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This section explains how to manage prompts for Genie features, ensuring</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>optimal performance and traceability.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Prompt Maintenance:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The admin user can maintain prompts for different Genie features within</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this node. To maintain prompt history and traceability, we recommend the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following best practices:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Avoid Modification or Deletion: Refrain from modifying or deleting</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>existing prompts. This preserves a clear history of prompt evolution and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>helps track changes over time.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Disable Obsolete Prompts: Instead of deleting outdated prompts, disable</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>them. This ensures that they are no longer used but remain accessible</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for reference.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Add New Prompts with Sequencing: When adding new or improved prompts for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a feature, assign them the next sequential number. This maintains a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>logical order and facilitates version control.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Prompt Improvement and Updates:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The Genie team continually works on refining and improving prompts to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhance the accuracy and effectiveness of model responses. These</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>improved prompts will be communicated to customers periodically. Admin</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>user can then add these new prompts to the system, following the best</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>practices outlined above.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AN</TDFORMAT>
+       <TDLINE>By adhering to these guidelines, admin user can ensure a well-organized</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and traceable prompt repository, maximizing the performance and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>efficiency of Genie&apos;s AI features.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

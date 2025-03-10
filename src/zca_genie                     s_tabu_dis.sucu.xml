@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUCU" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TBRG_AUTH>
+    <TBRG_AUTH>
+     <BRGRU>ZCA_GENIE</BRGRU>
+     <OBJECT>S_TABU_DIS</OBJECT>
+    </TBRG_AUTH>
+   </TBRG_AUTH>
+   <TBRG_AUTHT>
+    <TBRG_AUTHT>
+     <SPRAS>E</SPRAS>
+     <BRGRU>ZCA_GENIE</BRGRU>
+     <OBJECT>S_TABU_DIS</OBJECT>
+     <BEZEI>Genie Authorization Group</BEZEI>
+    </TBRG_AUTHT>
+   </TBRG_AUTHT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

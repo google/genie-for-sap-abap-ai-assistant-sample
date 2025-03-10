@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZCA_GENIE</OBJCT>
+    <FIEL1>ZGN_TEAM</FIEL1>
+    <FIEL2>ZGN_FEATUR</FIEL2>
+    <OCLSS>AAAB</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZCA_GENIE</OBJECT>
+    <TTEXT>Genie Authorization Object</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZCA_GENIE</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

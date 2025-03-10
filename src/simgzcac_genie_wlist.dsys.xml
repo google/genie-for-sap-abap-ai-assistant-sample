@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGZCAC_GENIE_WLIST</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGZCAC_GENIE_WLIST</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This document outlines the process for whitelisting ABAP packages that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are permitted for processing by Genie. This whitelisting is crucial for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ensuring compliance with legal requirements regarding the use of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>generative AI (GenAI) with SAP code.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Current Restrictions:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Due to the lack of explicit clarification from SAP regarding the use of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>standard SAP code with GenAI models for explainability purposes, only</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>custom packages owned by your organization should be whitelisted. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>restriction is in place to mitigate potential legal risks.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Future Considerations:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If and when SAP permits the use of standard SAP code with GenAI models,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the whitelisting process will be updated. At that time, all custom</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>packages should be removed from the whitelist table, and a single entry</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with the value * should be added. This will whitelist all packages,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>including standard SAP packages.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>User Responsibility:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Any user who whitelists standard SAP packages or uses the * wildcard</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>without proper legal authorization assumes full responsibility for any</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>resulting legal implications. It is imperative to only whitelist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>packages in accordance with current legal guidelines and company policy.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Consult with the legal team if you have any questions regarding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>permissible use.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

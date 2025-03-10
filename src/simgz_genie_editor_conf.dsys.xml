@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGZ_GENIE_EDITOR_CONF</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0012</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGZ_GENIE_EDITOR_CONF</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00012</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This program facilitates the maintenance of Genie feature-related</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries within the standard SAP table TSE_CTXT_MENU, which controls the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>context menu options.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Important:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Table Classification: The TSE_CTXT_MENU table is classified as a System</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table (delivery class &apos;S&apos;) and is typically edited only by SAP. While</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>display and maintenance are allowed, any changes made are considered</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>modifications and should be handled with caution.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Development Client: It is strongly recommended to execute this program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only in your SAP development client. Modifying system tables in other</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>environments can have unintended consequences.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Note: Consult with your SAP team if you have any concerns or questions.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_GENIE_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>GenAI Powered SAP ABAP Editor</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZCA_GENIE_MSG</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Model stopped generating response due to Finish Reason -</ENTRY>
+     <LENGTH>112</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Read more about the Finish Reason here -</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>https://cloud.google.com/vertex-ai/docs/reference/rest/v1/GenerateContentResponse#finishreason</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AUTHORIZATION_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Authorization Check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface: Code Genie</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AUTHORIZATION_CHECK</CMPNAME>
+     <SCONAME>IV_FEATURE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUTHORIZATION_CHECK</CMPNAME>
+     <SCONAME>RS_USER_AUTH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Genie Access Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface: Code Genie</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_PACKAGE_WHITELISTED</CMPNAME>
+     <SCONAME>IS_TRKEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Full key of a transport object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_PACKAGE_WHITELISTED</CMPNAME>
+     <SCONAME>RFL_PACKAGE_WHITELISTED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRE_PROCESS</CMPNAME>
+     <SCONAME>IO_EDITOR_HANDLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Editor - Development Workbench View</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRE_PROCESS</CMPNAME>
+     <SCONAME>IO_GUI_CONTROL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Proxy Class for Control in GUI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRE_PROCESS</CMPNAME>
+     <SCONAME>IS_TRKEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Full key of a transport object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRE_PROCESS</CMPNAME>
+     <SCONAME>IS_USER_AUTH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Genie Authorization Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRE_PROCESS</CMPNAME>
+     <SCONAME>IV_FEATURE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

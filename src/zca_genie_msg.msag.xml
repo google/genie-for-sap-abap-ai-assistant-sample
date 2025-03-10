@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCA_GENIE_MSG</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Genie</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Prepackaged Prompt missing for the action. Please contact Google Support.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Please write the instruction as comment, select it then trigger AI action</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Missing Genie Auth for the feature &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Only single Org entry supported for access control in current version.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Feature is either disabled or not configued in table ZCAC_GENIE_ACCES.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Maintain Model Key in the team &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Package is not whitelisted. Approval required before adding std package.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Genie Context Setup Successful!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Genie Context Setup failed. Please contact Google ABAP SDK Team!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Genie Context Setup Deleted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Genie Context Setup Deletion failed. Please contact Google ABAP SDK Team!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Could not determine system client category.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA_GENIE_MSG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>This tool should not be used in Production or SAP Reference systems.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

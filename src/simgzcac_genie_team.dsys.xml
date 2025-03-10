@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGZCAC_GENIE_TEAM</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0044</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00031</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGZCAC_GENIE_TEAM</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00044</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This document explains how to control access to Genie AI features within</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>your organization by configuring teams and assigning appropriate</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>authorizations.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Prerequisites:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>ABAP SDK Version: Ensure you have ABAP SDK version 1.9 or higher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>installed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Administrator Authorization: Assign the authorization object S_TABU_DIS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with authorization group ZCA_GENIE to the user who will act as the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>administrator for Genie and will be responsible to maintain the config.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Team-Based Access Control:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To manage which teams can utilize the AI features, you can create new</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>teams and leverage the ZCA_GENIE authorization object. The ZGN_TEAM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>field within this object uses the list of teams as a check table to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>validate the user team and assigned features.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Authorization Process:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Create New Teams: Establish new teams based on your organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure and requirements.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Assign Authorization Object: The security team should assign the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ZCA_GENIE authorization object to the relevant team roles, specifying:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The team in the ZGN_TEAM field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The desired AI features in the ZGN_FEATUR field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Feature field ZGN_FEATUR values:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>G_EXPLAIN: Explain Code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>G_REVIEW: Code Review</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>G_CODE: Suggest Code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>G_AUT: Suggest ABAP Unit Test</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>G_TRANS: Language Translate</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Recommendation:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For teams to fully utilize the potential of the AI features, we</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>recommend enabling access to all functionalities. However, you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tailor access based on specific team needs and responsibilities.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

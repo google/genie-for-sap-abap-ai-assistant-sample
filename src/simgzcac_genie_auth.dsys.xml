@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGZCAC_GENIE_AUTH</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0043</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00038</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGZCAC_GENIE_AUTH</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00043</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This document outlines the process for assigning Model Key to a team and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>managing detailed tool usage statistics for Genie.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Assigning Model Keys:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Generate Model Key: Follow the instructions in the Google Cloud document</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>referenced in the link provided to generate a unique Model Key for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>team.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>https://cloud.google.com/solutions/sap/docs/abap-sdk/on-premises-or-any-</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>cloud/latest/authentication</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>For best results with the provided prompts, we recommend using the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gemini-1.5-flash-002 model. Other models may require prompt adjustments.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Assign Model Key to Team: Assign the generated Model Key to the newly</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> created team.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Detailed Tool Usage Statistics:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>By default, Genie captures the detailed tool usage statistics including</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>User ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Feature used</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Timestamp</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Object Package and Name</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Prompt passed to the mode</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Code sent to the model and code lines count</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Response received from the model</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This detailed information is useful for monitoring and analyzing usage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>patterns, identifying potential issues, and ensuring compliance with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational policies.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Disabling Detailed Usage Statistics:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If detailed usage statistics do not align with your organization&apos;s</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>policies, you can disable this feature. Disabling detailed usage</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>statistics will exclude user id, prompts, code, and model responses from</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>logging.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>Enabling/Disabling Specific Features:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The authorization object ZCA_GENIE includes two fields:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Team Name: ZGN_TEAM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Feature: ZGN_FEATUR</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Once a team is configured under &apos;Configure New Team for Authorization</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> Control&apos;, the security team can assign the ZCA_GENIE authorization</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object to the team&apos;s unique role.  By selecting the team name in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ZGN_TEAM and specifying the desired features in ZGN_FEATUR, you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enable or disable specific AI features for that team.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
