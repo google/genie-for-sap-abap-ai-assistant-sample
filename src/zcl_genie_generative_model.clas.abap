@@ -18,16 +18,6 @@ CLASS ZCL_GENIE_GENERATIVE_MODEL IMPLEMENTATION.
 
 
   METHOD generate_content.
-************************************************************************************************************************
-* Copyright 2024 Google LLC                                                                                            *
-* ABAP SDK for Google Cloud is made available as "Software" under the agreement governing your use of                  *
-* Google Cloud Platform including the Service Specific Terms available at                                              *
-*                                                                                                                      *
-* https://cloud.google.com/terms/service-terms                                                                         *
-*                                                                                                                      *
-* Without limiting the generality of the above terms, you may not modify or distribute ABAP SDK for Google Cloud       *
-* without express written permission from Google.                                                                      *
-************************************************************************************************************************
 
     DATA:
       lv_p_projects_id   TYPE string,
