@@ -1,13 +1,3 @@
-************************************************************************************************************************
-* Copyright 2024 Google LLC                                                                                            *
-* ABAP SDK for Google Cloud is made available as "Software" under the agreement governing your use of                  *
-* Google Cloud Platform including the Service Specific Terms available at                                              *
-*                                                                                                                      *
-* https://cloud.google.com/terms/service-terms                                                                         *
-*                                                                                                                      *
-* Without limiting the generality of the above terms, you may not modify or distribute ABAP SDK for Google Cloud       *
-* without express written permission from Google.                                                                      *
-************************************************************************************************************************
 *&---------------------------------------------------------------------*
 *& Include          ZECA_GENIE_CONTEXT_MENU
 *&---------------------------------------------------------------------*
