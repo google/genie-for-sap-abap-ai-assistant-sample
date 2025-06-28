@@ -4,7 +4,7 @@ This repository contains code samples, and other artifacts related to the below 
 
 | Product Name              | Description   | Sub-directory |
 | ------------------------- |---------------| ------------- |
-| Genie for SAP | Genie for SAP enables AI based features (Code Explan, Code Review, Suggest Code and Suggest ABAP Unit Test) in SAP ABAP Editor on RIGHT-CLICK.  | [code sample](src) |
+| Genie for SAP | Genie for SAP enables AI based features (Code Explain, Code Review, Suggest Code and Suggest ABAP Unit Test) in SAP ABAP Editor on RIGHT-CLICK.  | [code sample](src) |
 
 ## Disclaimer
 
