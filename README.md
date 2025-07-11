@@ -8,7 +8,7 @@ This repository contains code samples, and other artifacts related to the below 
 
 ## Pre-requisite
 
-Your SAP system must have ABAP SDK version 1.9 or higher installed.
+Your SAP system must have Google ABAP SDK version 1.9 or higher installed. If not, please follow the installation guide https://cloud.google.com/solutions/sap/docs/abap-sdk/on-premises-or-any-cloud/latest/install-config
 
 ## Disclaimer
 
