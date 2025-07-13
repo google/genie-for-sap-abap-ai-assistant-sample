@@ -14,6 +14,8 @@ ENHANCEMENT 0 ZEIMP_CA_GENIE_CONTEXT_MENU.
 *  See the License for the specific language governing permissions   *
 *  and limitations under the License.                                *
 **********************************************************************
+* Description: Implicit Enhancement in class CL_CTMENU               *
+**********************************************************************
   INCLUDE zeca_genie_context_menu IF FOUND.
 
 ENDENHANCEMENT.
