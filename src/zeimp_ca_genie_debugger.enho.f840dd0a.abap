@@ -23,5 +23,4 @@ IF fcode CP 'G_*'.
   RETURN.
 
 ENDIF.
-
 ENDENHANCEMENT.
