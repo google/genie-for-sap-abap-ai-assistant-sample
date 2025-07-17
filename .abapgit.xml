@@ -7,7 +7,7 @@
    <FOLDER_LOGIC>FULL</FOLDER_LOGIC>
    <IGNORE>
     <item>/.gitignore</item>
-    <item>/LICENSE</item>    
+    <item>/LICENSE</item>
     <item>/README.md</item>
     <item>/*.md</item>
     <item>/*.pdf</item>
